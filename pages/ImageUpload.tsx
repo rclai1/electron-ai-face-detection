@@ -216,15 +216,6 @@ export default function ImageUpload({
 
               {mutation.isSuccess && mutation.data.length > 0 && (
                 <div className="space-y-6">
-                  {/* <div className="bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-300 rounded-lg p-6">
-                      <p className="text-sm text-gray-600 mb-1">Most Likely:</p>
-                      <h3 className="text-3xl font-bold text-gray-800">
-                        {topResult?.label}
-                      </h3>
-                      <p className="text-lg text-gray-600 mt-1">
-                        {(topResult?.score * 100).toFixed(1)}% confidence
-                      </p>
-                    </div> */}
                   <div
                     className={`bg-gradient-to-r border-2 rounded-lg p-6 ${
                       topResult?.label.toLowerCase() === "fake"
@@ -248,7 +239,9 @@ export default function ImageUpload({
                     {results.map((entry, index) => (
                       <div key={entry.label} className="space-y-1">
                         <div className="flex justify-between text-sm">
-                          <span>{entry.label}</span>
+                          <span className="font-medium text-gray-700">
+                            {entry.label}
+                          </span>
                           <span className="font-medium text-gray-700">
                             {Math.trunc(entry.score * 100) / 100}
                           </span>
