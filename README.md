@@ -25,3 +25,7 @@ Dataset quality matters - a lot. Our first dataset was very promising on paper, 
 ## What's next for Fake Face Detector
 
 Solidifying our desktop application and functionality is a big priority on the front-end, as it allows for much more options on the user's side. Potential new avenues include being able to allow the app to run in the background with very low resources, and being able to enable trigger the screenshot -> upload process through a keyboard shortcut instead of having to open the app. On the backend, a more sophisticated model able to go a step further and identify the source used to create the fake face is also a goal of ours.
+
+## Downloads:
+
+You may try out application on your own windows machine here: https://drive.google.com/file/d/1nCeUlUhh7YTopuapzIDEMCBhIbXbsUhe/view?usp=sharing
