@@ -1,6 +1,6 @@
 # Downloads:
 
-You can try out application on your own Windows machine here: https://drive.google.com/file/d/1nCeUlUhh7YTopuapzIDEMCBhIbXbsUhe/view?usp=sharing
+You can try out the application on your own Windows machine here: https://drive.google.com/file/d/1nCeUlUhh7YTopuapzIDEMCBhIbXbsUhe/view?usp=sharing
 
 # Background
 ## Inspiration
