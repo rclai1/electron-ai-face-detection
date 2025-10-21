@@ -2,6 +2,8 @@
 
 You can try out the application on your own Windows machine here: https://drive.google.com/file/d/1nCeUlUhh7YTopuapzIDEMCBhIbXbsUhe/view?usp=sharing
 
+The API takes a bit of time to wake up the first time, so if you get a 503 error please wait a minute and try again.
+
 # Background
 ## Inspiration
 
